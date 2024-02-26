@@ -1,0 +1,181 @@
+header{
+	width: 100%;
+	padding: 0px 0px;
+	background-color: #4C928C;
+	color: #ffffff;
+}
+footer{
+	display: block;
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+	background-color: #4C928C;
+	color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	font-size: 10px;
+}
+.barsupizq{
+	float: left;
+	background-color: #032033;
+	width: 50%;
+	display: inline-block;
+	height: 30px;
+	padding-left: 1%;
+	text-align: left;
+	font-size: 10px;
+	line-height: 28px;
+}
+.barsupder{
+	float: right;
+	background-color: #032033;
+	width: 50%;
+	display: inline-block;
+	height: 30px;
+	padding-right: 1%;
+	text-align: right;
+}
+.boton{
+	font-size: 10px;
+	background-color: #000;
+}
+.ban{
+	padding-top: 65px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px 4px #0d6efd;
+	text-align: center;
+}
+label{
+	font-weight: bold;
+	font-size: 14px;
+}
+.inicio{
+	width: 300px;
+	padding: 30px;
+	border: 1px solid #ced4da; 
+	margin: 20px auto;
+	margin-bottom: 105px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 4px #000;
+}
+
+.cen{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 10px;
+}
+form{
+	padding-top: 20px;
+}
+
+h2{
+	text-align: center;
+}
+.textinf{
+	margin: 150px 5%;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+}
+.conte{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+i{
+	color: #055160;
+}
+
+.menu{
+	background-color: #32429e;
+}
+
+.ico{
+	color: #FFF;
+	/*margin-right: 15px;*/
+	font-size: 20px;
+}
+
+.ico1{
+	color: #F00;
+	/*margin-right: 15px;*/
+	font-size: 20px;
+}
+
+.ico2{
+	color: #32429e;
+	/*margin-right: 15px;*/
+	font-size: 20px;
+}
+
+#mos, #ocu{
+	margin: 0px auto;
+	text-align: center;
+}
+
+.otro{
+	border-bottom: 1px solid #fff;
+}
+.imglogoedit{
+    width: 135px;
+    height: 120px;
+}
+/*
+.menu{
+	display: inherit;
+	width: 100%;
+	background-color: #32429e;
+}
+.menu a{
+	display: inline-block;
+	color: #fff;
+	padding: 0px 20px;
+	margin-bottom: 10px;
+	border-right: 1px solid #fff;
+	border-radius: 10px;
+}
+
+.menu a:hover{
+	color: #ff0;
+	border-right: 2px solid #ff0;
+	font-weight: bold;
+	text-decoration: none;
+}*/
+
+.dpag{
+	display: inline-block;
+	width: 49%;
+	font-size: 16px;
+}
+
+.dti{
+	width: 99%;
+	font-weight: bold;
+}
+
+
+@media(max-width: 600px){
+	.barsupder{
+		font-size: 10px;
+	}
+	/*.menu a{
+		display: inherit;
+	}*/
+}
+
+@media(max-width: 399px){
+	.barsupizq {
+		display: none;
+	}
+	.barsupder{
+		font-size: 10px;
+		width: 100%;
+	}
+	.dpag{
+		font-size: 13px;
+	}
+}
